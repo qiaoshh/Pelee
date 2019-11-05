@@ -22,7 +22,7 @@ layer {
     }
   }
   data_param {
-    source: "/home/qiao/caffe-ssd/data/create_lmdb/lmdb/double_camera_trainval_lmdb"
+    source: "/your/own/lmdb/train/dateset/path"
     batch_size: 16
     backend: LMDB
     prefetch: 48
@@ -110,7 +110,7 @@ layer {
       max_sample: 1
       max_trials: 50
     }
-    label_map_file: "/home/qiao/caffe-ssd/data/create_lmdb/labelmap_double_camera.prototxt"
+    label_map_file: "/your/own/caffe/path/data/create_lmdb/labelmap_double_camera.prototxt"
   }
 }
 
