@@ -22,14 +22,14 @@ layer {
     }
   }
   data_param {
-    source: "/home/qiao/caffe-ssd/data/create_lmdb/lmdb/double_camera_test_lmdb"
+    source: "/your/own/lmdb/test/path"
     batch_size: 1
     backend: LMDB
   }
   annotated_data_param {
     batch_sampler {
     }
-    label_map_file: "/home/qiao/caffe-ssd/data/create_lmdb/labelmap_double_camera.prototxt"
+    label_map_file: "/your/own/caffe/path/data/create_lmdb/labelmap_double_camera.prototxt"
   }
 }
 
