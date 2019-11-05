@@ -1,4 +1,4 @@
-This repository aim at multi objects detection by pelee based ssd.
+This repository aim at multi objects detection by pelee based ssd.\n
 Useage:
 1. git clone the repository, note: dataset use VOC format
 2. mkdir build && cd build
