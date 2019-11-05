@@ -1,0 +1,13 @@
+[libprotobuf ERROR google/protobuf/text_format.cc:274] Error parsing text-format caffe.SolverParameter: 19:8: Message type "caffe.SolverParameter" has no field named "stagelr".
+F1025 12:20:46.215761 13062 upgrade_proto.cpp:1095] Check failed: ReadProtoFromTextFile(param_file, param) Failed to parse SolverParameter file: /home/qiao/caffe-ssd/examples/pelee-ssd300_double_camera/solver.prototxt
+*** Check failure stack trace: ***
+    @     0x7f71fdce25cd  google::LogMessage::Fail()
+    @     0x7f71fdce4433  google::LogMessage::SendToLog()
+    @     0x7f71fdce215b  google::LogMessage::Flush()
+    @     0x7f71fdce4e1e  google::LogMessageFatal::~LogMessageFatal()
+    @     0x7f71fe4daa61  caffe::ReadSolverParamsFromTextFileOrDie()
+    @           0x40beca  train()
+    @           0x408918  main
+    @     0x7f71fc1e0830  __libc_start_main
+    @           0x4091e9  _start
+    @              (nil)  (unknown)

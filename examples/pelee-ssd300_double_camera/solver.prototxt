@@ -1,0 +1,33 @@
+train_net: "/home/qiao/caffe-ssd/examples/pelee-ssd300_double_camera/pelee-ssd_train.prototxt"
+test_net: "/home/qiao/caffe-ssd/examples/pelee-ssd300_double_camera/pelee-ssd_test.prototxt"
+test_iter: 760
+test_interval: 5000
+base_lr: 0.02
+display: 50
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 15000
+snapshot_prefix: "/home/qiao/caffe-ssd/models/doubleCamera/pelee_ssd"
+solver_mode: GPU
+#device_id: 1
+debug_info: false
+snapshot_after_train: false
+#test_initialization: false
+test_initialization: true
+average_loss: 100
+lr_policy: "multistep"
+stepvalue:100000
+stepvalue:130000
+stepvalue:160000
+stepvalue:180000
+stepvalue:200000
+stepvalue:220000
+stepvalue:240000
+stepvalue:260000
+max_iter: 300000
+iter_size: 4
+type: "SGD"
+eval_type: "detection"
+ap_version: "11point"
+show_per_class_result:true
+
