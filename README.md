@@ -1,6 +1,6 @@
 This repository aim at multi objects detection by pelee based ssd.
 
-Useage:
+Usage:
 1. git clone the repository.
 2. mkdir build && cd build
 3. cmake ..
