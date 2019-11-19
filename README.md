@@ -10,3 +10,5 @@ Usage:
 7. modify train.prototex, test.prototxt, solver.prototxt and train_pelee_ssd_dc.sh by your own work.
 8. above all finish, run"./train_pelee_ssd_dc.sh" start training!
 
+Reference:
+https://github.com/eric612/MobileNet-YOLO
