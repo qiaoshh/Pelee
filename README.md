@@ -1,4 +1,4 @@
-This repository aim at multi objects detection by pelee based ssd.
+This repository aimed at multi-objects detection by pelee based ssd.
 
 Usage:
 1. git clone the repository.
