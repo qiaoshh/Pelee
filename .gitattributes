@@ -1,1 +1,4 @@
 *.cmake linguist-language=python
+*.md linguist-language=python
+*.cpp linguist-language=python
+
